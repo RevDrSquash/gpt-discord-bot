@@ -24,7 +24,7 @@ class GPTBot(commands.Bot):
                 continue
             await bot.load_extension(f"src.discord_cogs.{cog_name}")
 
-        await bot.tree.sync()
+        # await bot.tree.sync()
 
     async def on_ready(self):
         logging.info(f"We have logged in as {self.user}. Invite URL: {BOT_INVITE_URL}")
