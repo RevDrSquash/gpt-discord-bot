@@ -61,6 +61,29 @@ async def generate_assistant_message_in_thread(thread_id: str, assistant_id: str
         # If the run is completed, retreive the last message the assistant sent
         desc_thread_messages = await client.beta.threads.messages.list(thread_id)
         last_message = desc_thread_messages.data[0]
+        
+        # Extract the message content
+        message_content = last_message.content[0].text
+        annotations = message_content.annotations
+        citations = []
+        # Iterate over the annotations and add footnotes
+        for index, annotation in enumerate(annotations):
+          # Replace the text with a footnote
+          # message_content.value = message_content.value.replace(annotation.text, f' [{index}]')
+          message_content.value = message_content.value.replace(annotation.text, f'')
+          # Gather citations based on annotation attributes
+          if (file_citation := getattr(annotation, 'file_citation', None)):
+              cited_file = await client.files.retrieve(file_citation.file_id)
+              # citations.append(f'[{index}] {file_citation.quote} from {cited_file.filename}')
+              citations.append(f'[{index}] from {cited_file.filename}')
+          elif (file_path := getattr(annotation, 'file_path', None)):
+              cited_file = await client.files.retrieve(file_path.file_id)
+              citations.append(f'[{index}] Click <here> to download {cited_file.filename}')
+              # Note: File download functionality not implemented above for brevity
+        
+        # Add footnotes to the end of the message before displaying to user
+        # message_content.value += '\n' + '\n'.join(citations)
+        
         last_message = Message.from_api_output(last_message)
 
         if last_message.role == "assistant":
