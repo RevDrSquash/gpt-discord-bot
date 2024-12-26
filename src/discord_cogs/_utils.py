@@ -3,11 +3,13 @@ from typing import Optional
 
 import discord
 from discord import Message as DiscordMessage
+from discord import app_commands
 
 from src.constants import (
     ALLOWED_SERVER_IDS,
     MAX_ASSISTANT_LIST,
-    MAX_CHARS_PER_REPLY_MSG
+    MAX_CHARS_PER_REPLY_MSG,
+    OWNER_USERID
 )
 from src.openai_api.assistants import list_assistants
 
@@ -112,3 +114,8 @@ def should_block(guild: Optional[discord.Guild]) -> bool:
         logger.info(f"Guild {guild} not allowed")
         return True
     return False
+
+def is_me():
+    def predicate(interaction: discord.Interaction) -> bool:
+        return interaction.user.id == 1
+    return app_commands.check(predicate)

@@ -13,11 +13,13 @@ from src.constants import (
     ACTIVATE_BUILD_THREAD_PREFIX,
     MAX_ASSISTANT_LIST,
     MAX_CHARS_PER_REPLY_MSG,
+    ADMIN_SERVER_ID,
 )
 from src.discord_cogs._utils import (
     search_assistants,
     should_block,
     split_into_shorter_messages,
+    is_me
 )
 from src.models.assistant import AssistantCreate
 from src.models.message import function_tool_to_dict
@@ -44,6 +46,7 @@ class Assistant(commands.Cog):
         self.bot = bot
 
     @app_commands.command(name="build")
+    @app_commands.guilds(ADMIN_SERVER_ID)
     async def build(self, int: discord.Interaction, name: str):
         """Create an assistant"""
         try:
@@ -222,6 +225,7 @@ class Assistant(commands.Cog):
             await int.response.send_message(f"Failed to start chat {str(e)}", ephemeral=True)
 
     @app_commands.command(name="update")
+    @app_commands.guilds(ADMIN_SERVER_ID)
     async def update(self, int: discord.Interaction, assistant_id: str):
         """Update an assistant"""
         try:
@@ -436,6 +440,8 @@ class Assistant(commands.Cog):
             await int.response.send_message(f"Failed to start chat {str(e)}", ephemeral=True)
 
     @app_commands.command(name="show")
+    @app_commands.guilds(ADMIN_SERVER_ID)
+    @is_me()
     async def show(self, int: discord.Interaction, assistant_id: str):
         """Show the specified assistant"""
         await int.response.defer()
@@ -451,6 +457,7 @@ class Assistant(commands.Cog):
                 await int.followup.send(content=response)
 
     @app_commands.command(name="list")
+    @app_commands.guilds(ADMIN_SERVER_ID)
     async def list(self, int: discord.Interaction, offset: int = 0,
             max: int = MAX_ASSISTANT_LIST, search: str = ''):
         """List available assistants with optional limit (default MAX_ASSISTANT_LIST)"""
@@ -467,6 +474,7 @@ class Assistant(commands.Cog):
         await int.followup.send(content=s)
 
     @app_commands.command(name="delete")
+    @app_commands.guilds(ADMIN_SERVER_ID)
     async def delete(self, int: discord.Interaction, assistant_id: str):
         """Delete the specified assistant"""
         await int.response.defer()  # defer the response to avoid timeout during openai_api call

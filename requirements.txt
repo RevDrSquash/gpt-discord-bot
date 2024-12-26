@@ -4,3 +4,4 @@ openai==1.58.*
 PyYAML==6.0.2
 dacite==1.6.*
 mediawikiapi==1.2.*
+click==8.*

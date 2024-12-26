@@ -6,11 +6,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OWNER_USERID = int(os.environ["OWNER_USERID"])
 DISCORD_BOT_TOKEN = os.environ["DISCORD_BOT_TOKEN"]
 DISCORD_CLIENT_ID = os.environ["DISCORD_CLIENT_ID"]
 
-ALLOWED_SERVER_IDS: list[int] = []
+OWNER_USERID = int(os.environ["OWNER_USERID"])
+ADMIN_SERVER_ID = int(os.environ["ADMIN_SERVER_ID"])
+
+ALLOWED_SERVER_IDS: list[int] = [ADMIN_SERVER_ID]
 server_ids = os.environ["ALLOWED_SERVER_IDS"].split(",")
 for s in server_ids:
     ALLOWED_SERVER_IDS.append(int(s))

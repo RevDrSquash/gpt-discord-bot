@@ -10,7 +10,11 @@ from discord import app_commands
 from discord.ext import commands
 
 from src.constants import (
-    OWNER_USERID,
+    ADMIN_SERVER_ID,
+)
+
+from src.discord_cogs._utils import (
+    is_me,
 )
 
 logger = logging.getLogger(__name__)
@@ -20,6 +24,7 @@ class Admin(commands.Cog):
         self.bot = bot
 
     @app_commands.command(name="sync")
+    @app_commands.guilds(ADMIN_SERVER_ID)
     async def sync(self, int: discord.Interaction):
         """Force sync this bot's command tree"""
         try:
