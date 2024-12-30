@@ -1,0 +1,6 @@
+Resolving a Withering Attack
+First, you decide what combat Ability your character is attacking with—Archery, Brawl, Martial Arts, Melee, or Thrown. Based on this decision, you make an attack roll:
+Step One: Roll (Dexterity + [relevant combat Ability] + weapon’s accuracy and any other modifiers) against a difficulty of the target’s Defense (see p. 194). If the roll produces fewer successes than the target’s Defense, it fails.
+Step Two: If the attack succeeds, determine its raw damage. Raw damage is an attack’s damage rating before soak (see p. 194) is subtracted. Raw damage is usually calculated as (attacker’s Strength + weapon’s damage value + threshold successes on attack roll in Step One.) A few weapons, such as firewands and crossbows, omit Strength from this calculation—see Chapter Nine.
+Step Three: Subtract target’s soak from the attack’s raw damage. This cannot produce a result lower than the weapon’s Overwhelming rating (see p. 580). Roll a dice pool equal to whatever damage remains after soak. Unlike decisive attacks, the Double 10s rule does apply to withering damage rolls.
+Step Four: First, you gain one point of Initiative simply for landing a successful withering attack. Then count up the successes on the damage roll. Subtract that amount from the target’s Initiative, and add it to your character’s Initiative.
