@@ -1,34 +1,34 @@
 Character Creation Summary
 Step 1: Character Concept and Caste
-â€¢ Consult with other players and come up with an appealing, heroic concept.
-â€¢ Pick out the Caste that fits best, and note down its anima effects.
+• Consult with other players and come up with an appealing, heroic concept.
+• Pick out the Caste that fits best, and note down its anima effects.
 Step 2: Attributes
-â€¢ Mark down one dot in each Attribute.
-â€¢ Divide 8 dots among primary Attributes, 6 dots among secondary Attributes, and 4 dots among tertiary Attributes (see p. 121).
+• Mark down one dot in each Attribute.
+• Divide 8 dots among primary Attributes, 6 dots among secondary Attributes, and 4 dots among tertiary Attributes (see p. 121).
 Step 3: Abilities
-â€¢ Select five Caste Abilities from the relevant list (see p. 121).
-â€¢ Select five Favored Abilities, which may not be the same as Caste Abilities.
-â€¢ Select one Supernal Ability from among the chosen Caste Abilities.
-â€¢ Divide 28 dots among all Abilities. None may be raised higher than 3 without spending Bonus Points, and each Favored Ability must have at least one dot.
-â€¢ Assign four specialties.
+• Select five Caste Abilities from the relevant list (see p. 121).
+• Select five Favored Abilities, which may not be the same as Caste Abilities.
+• Select one Supernal Ability from among the chosen Caste Abilities.
+• Divide 28 dots among all Abilities. None may be raised higher than 3 without spending Bonus Points, and each Favored Ability must have at least one dot.
+• Assign four specialties.
 Step 4: Merits
-â€¢ Spend up to 10 dots on Merits.
+• Spend up to 10 dots on Merits.
 Step 5: Charms
-â€¢ Select 15 Charms, keeping in mind their requirements.
+• Select 15 Charms, keeping in mind their requirements.
 Step 6: Intimacies and Limit Trigger
-â€¢ Choose at least four Intimacies, including at least one Defining Intimacy, one Major Intimacy, one positive Intimacy, and one negative Intimacy.
+• Choose at least four Intimacies, including at least one Defining Intimacy, one Major Intimacy, one positive Intimacy, and one negative Intimacy.
 Step 7: Bonus Points
-â€¢ Spend 15 Bonus Points.
+• Spend 15 Bonus Points.
 Step 8: Finishing Touches
-â€¢ Record Essence rating (1)
-â€¢ Record Personal Essence pool ([Essence x 3] + 10)
-â€¢ Record Peripheral Essence pool ([Essence x 7] + 26)
-â€¢ Record Health Levels (-0, -1, -1, -2, -2, -4, Incapacitated), and Willpower (5).
+• Record Essence rating (1)
+• Record Personal Essence pool ([Essence x 3] + 10)
+• Record Peripheral Essence pool ([Essence x 7] + 26)
+• Record Health Levels (-0, -1, -1, -2, -2, -4, Incapacitated), and Willpower (5).
 Castes
-â€¢ Dawn: Peerless warriors, armsmasters, and generals, who long ago led and championed the armies of the Exalted Host. Dawns are forged in the crucible of conflict, and were often soldiers, warriors, or tacticians before their Exaltation.
+• Dawn: Peerless warriors, armsmasters, and generals, who long ago led and championed the armies of the Exalted Host. Dawns are forged in the crucible of conflict, and were often soldiers, warriors, or tacticians before their Exaltation.
 Caste Abilities: Archery, Awareness, Brawl/Martial Arts, Dodge, Melee, Resistance, Thrown, War
-â€¢ Zenith: Priest-kings, prophets, and orators, who long ago ruled and inspired the people of the Old Realm. Zeniths are natural leaders, who share a love of justice and righteousness whatever their calling.
+• Zenith: Priest-kings, prophets, and orators, who long ago ruled and inspired the people of the Old Realm. Zeniths are natural leaders, who share a love of justice and righteousness whatever their calling.
 Caste Abilities: Athletics, Integrity, Performance, Lore, Presence, Resistance, Survival, War
-â€¢ Twilight: Scholars, craftspeople, and occultists, who long ago built great wonders and pushed back the edges of the unknown. Twilights are makers, thinkers, and doers, often endlessly curious about the world around them.
+• Twilight: Scholars, craftspeople, and occultists, who long ago built great wonders and pushed back the edges of the unknown. Twilights are makers, thinkers, and doers, often endlessly curious about the world around them.
 Caste Abilities: Bureaucracy, Craft, Integrity, Investigation, Linguistics, Lore, Medicine, Occult
-â€¢ Night: Investigators, spies, and assassins who long ago kept the Old Realm safe from threats within and without. Nights are often masters of going unseen, and moving in the shadowy circles outside respectable society. 
+• Night: Investigators, spies, and assassins who long ago kept the Old Realm safe from threats within and without. Nights are often masters of going unseen, and moving in the shadowy circles outside respectable society. 

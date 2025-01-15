@@ -1,6 +1,6 @@
 Resolving a Decisive Attack
-Decisive attacks carry a penalty if used unsuccessfully‚Äî choose your moment to launch decisive attacks carefully! As with a withering attack, you start by selecting which combat Ability your character is attacking with.
-Step One: Roll (Dexterity + [relevant combat Ability] + any modifiers) against a difficulty of the target‚Äôs Defense. You do not add your weapon‚Äôs accuracy to this roll. If the roll fails, and your current Initiative is 1-10, your character loses 2 Initiative. If it‚Äôs 11+ and the attack fails, your character loses 3 Initiative.
+Decisive attacks carry a penalty if used unsuccessfullyó choose your moment to launch decisive attacks carefully! As with a withering attack, you start by selecting which combat Ability your character is attacking with.
+Step One: Roll (Dexterity + [relevant combat Ability] + any modifiers) against a difficulty of the targetís Defense. You do not add your weaponís accuracy to this roll. If the roll fails, and your current Initiative is 1-10, your character loses 2 Initiative. If itís 11+ and the attack fails, your character loses 3 Initiative.
 Step Two: If attack is successful, roll your current Initiative value as a dice pool. The Double 10s rule (p. 183) does not apply to this roll. If your target has Hardness (p. 195) equal to or greater than your damage pool in this step, you inflict no damage but your attack is still considered a success; proceed to Step Four.
-Step Three: Count up the successes on the Initiative roll. Apply that many levels of damage to the target‚Äôs Health Track. This damage will be bashing or lethal, as determined by the weapon used (see p. 195).
-Step Four: If the attack was successful, reset your character‚Äôs Initiative value to 3 (also known as ‚ÄúResetting to base value.‚Äù)
+Step Three: Count up the successes on the Initiative roll. Apply that many levels of damage to the targetís Health Track. This damage will be bashing or lethal, as determined by the weapon used (see p. 195).
+Step Four: If the attack was successful, reset your characterís Initiative value to 3 (also known as ìResetting to base value.î)

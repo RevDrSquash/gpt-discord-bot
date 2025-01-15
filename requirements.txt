@@ -4,5 +4,7 @@ openai==1.58.*
 PyYAML==6.0.2
 dacite==1.6.*
 mediawikiapi==1.2.*
-click==8.*
-deepeval=2.*
+click==8.1.*
+deepeval==2.1.*
+pytest==8.3.*
+chromadb==2.6.*
